@@ -218,10 +218,10 @@ otherwise **"Fail"**.
 ```mermaid
     flowchart TB
         A ([Start]) --> B [Input Average marks]
-        B --> C [If average marks >= 50]
-        C --YES--> D [Display "Pass"]
-        C --NO--> E [Display "Fail"]
-        D --> F [End]
+        B --> C {Is average marks >= 50?}
+        C --YES--> D [Display Pass]
+        C --NO--> E [Display Fail]
+        D --> F ([End])
         E --> F 
         
 
