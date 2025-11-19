@@ -57,6 +57,22 @@ Write the algorithm and draw the flowchart for a program that inputs
 marks for 3 subjects, calculates the total and average, and displays
 both.
 
+```text
+START
+    INPUT mark1
+    INPUT mark2
+    INPUT mark3
+    total = mark1 + mark2 + mark3
+    average = total/3   
+    ENDIF
+END
+```
+```mermaid
+flowchart TD
+    A([Start]) --> B[total = mark1 + mark2 + mark3]
+    B --> C {average = total/3 }
+    D --> E([End])
+```
 ---
 
 ## 3. Display Multiplication Table
