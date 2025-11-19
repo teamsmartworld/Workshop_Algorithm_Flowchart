@@ -168,7 +168,7 @@ End
 ```
 ### ✔ The Flowchart
 
-![Alt text]
+![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/images/Question%206.drawio.png)
 ---
 
 ## 7. Calculate Area of a Rectangle
