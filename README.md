@@ -78,6 +78,11 @@ flowchart TD
 
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
+```text
+
+https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/Question%203.drawio.png
+
+```text
 
 ---
 
