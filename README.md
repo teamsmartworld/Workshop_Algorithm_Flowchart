@@ -70,9 +70,10 @@ END
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B[total = mark1 + mark2 + mark3]
-    B --> C {average = total/3 }
-    C --> D([End])
+    A([Start]) --> B[Input = mark1, mark2, mark3]
+    B --> C [total = mark1 + mark2 + mark3]
+    C --> D {average = total/3 }
+    D --> E ([End])
 ```
 ---
 
