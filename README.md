@@ -78,8 +78,19 @@ flowchart TD
 
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
-![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/Question%203.drawio.png)
+```text
+Start
+Declare integer n, integer i
+Prompt "Enter a number:"; read n
+Set i ← 1
+While i ≤ 10 do
+Compute product ← n * i
+Display "n × i = product"
+Increment i ← i + 1
+End
 ```
+![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/Question%203.drawio.png)
+
 ---
 
 ## 4. Positive, Negative, or Zero Check
