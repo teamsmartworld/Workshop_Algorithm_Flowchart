@@ -193,7 +193,7 @@ the area (**Area = Length × Width**), and display the result.
 
 ### ✔ The Flowchart
 
-![Alt text]
+![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/images/Flowchart-%20Question-7.webp)
 ---
 
 ## 8. Determine Pass or Fail
