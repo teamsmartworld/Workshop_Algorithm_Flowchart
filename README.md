@@ -151,6 +151,24 @@ End
 Write the algorithm and draw the flowchart for a program that takes the
 temperature of 7 days, finds the average temperature, and displays it.
 
+### ✔ Pseudocode
+
+```text
+Start
+    Declare array temp[7], integers i, sum, real avg
+    Set sum ← 0
+    For i from 1 to 7
+    Prompt “Enter temperature for day i”; read temp[i]
+    Update sum ← sum + temp[i]
+    Compute avg ← sum / 7
+    Display “Average temperature = avg”
+End
+
+
+```
+### ✔ The Flowchart
+
+![Alt text]
 ---
 
 ## 7. Calculate Area of a Rectangle
