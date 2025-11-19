@@ -67,11 +67,12 @@ START
     ENDIF
 END
 ```
+
 ```mermaid
 flowchart TD
     A([Start]) --> B[total = mark1 + mark2 + mark3]
     B --> C {average = total/3 }
-    D --> E([End])
+    C --> D([End])
 ```
 ---
 
