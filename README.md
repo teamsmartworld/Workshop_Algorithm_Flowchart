@@ -235,6 +235,40 @@ otherwise **"Fail"**.
 Write the algorithm and draw the flowchart that input a number and
 calculate its factorial using a loop.
 
+### ✔ Pseudocode
+
+```text
+Start
+    Declare integers n, i; initialize fact ← 1
+    Prompt “Enter a number:”; read n
+    Set i ← 1
+    While i ≤ n
+    Set fact ← fact × i
+    Increment i ← i + 1
+    Display “Factorial = fact”
+End
+
+```
+
+### ✔ Flowchart
+
+```mermaid
+flowchart TD
+    A([Start])
+    B[Declare integers n, i; initialize fact ← 1]
+    C[Prompt: Enter a number; read n]
+    D[Set i ← 1]
+    E{Is i ≤ n?}
+    F[Set fact ← fact × i]
+    G[Increment i ← i + 1]
+    H[Display: Factorial =  + fact]
+    I([End])
+
+    A --> B --> C --> D --> E
+    E -- Yes --> F --> G --> E
+    E -- No --> H --> I
+
+```
 ---
 
 ## 10. Calculate Discount on Purchase
