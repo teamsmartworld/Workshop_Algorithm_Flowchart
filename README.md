@@ -79,15 +79,15 @@ flowchart TD
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
 ```text
-Start
-Declare integer n, integer i
-Prompt "Enter a number:"; read n
-Set i ← 1
-While i ≤ 10 do
-Compute product ← n * i
-Display "n × i = product"
-Increment i ← i + 1
-End
+    Start
+        Declare integer n, integer i
+        Prompt "Enter a number:"; read n
+        Set i ← 1
+        While i ≤ 10 do
+        Compute product ← n * i
+        Display "n × i = product"
+        Increment i ← i + 1
+    End
 ```
 ![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/Question%203.drawio.png)
 
@@ -99,14 +99,15 @@ Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
 
 ### ✔ Pseudocode
+
 ```text
-Start
-Declare integer n
-Prompt “Enter a number:”; read n
-If n > 0, display “Number is positive”
-Else if n < 0, display “Number is negative”
-Else display “Number is zero”
-End
+    Start
+        Declare integer n
+        Prompt “Enter a number:”; read n
+        If n > 0, display “Number is positive”
+        Else if n < 0, display “Number is negative”
+        Else display “Number is zero”
+    End
 
 ```
 
@@ -125,6 +126,23 @@ interest using the formula:
 - **P = Principal** → original amount of money
 - **R = Rate of Interest** → percentage per year
 - **T = Time** → number of years
+
+### ✔ Pseudocode
+
+```text
+Start
+    Declare variables P, R, T, SI
+    Prompt “Enter principal (P):”; read P
+    Prompt “Enter annual rate (R):”; read R
+    Prompt “Enter time in years (T):”; read T
+    Compute SI ← (P × R × T) / 100
+    Display “Simple Interest = SI”
+End
+
+```
+### ✔ The Flowchart
+
+![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/images/Flowchart-Question_5.webp)
 
 ---
 
