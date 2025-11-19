@@ -176,6 +176,24 @@ End
 Create an algorithm and flowchart to input length and width, calculate
 the area (**Area = Length × Width**), and display the result.
 
+
+### ✔ Pseudocode
+
+```text
+    Start
+        Declare variables length, width, area
+        Prompt “Enter length:”; read length
+        Prompt “Enter width:”; read width
+        Compute area ← length × width
+        Display “Area = area”
+    End
+
+
+```
+
+### ✔ The Flowchart
+
+![Alt text]
 ---
 
 ## 8. Determine Pass or Fail
