@@ -112,7 +112,7 @@ End
 
 ### ✔ The Flowchart
 
-![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/images/Untitled%20Diagram.drawio.png)
+![Alt text](https://github.com/teamsmartworld/Workshop_Algorithm_Flowchart/blob/main/images/Question-No-4.drawio.png) 
 ---
 
 ## 5. Simple Interest Calculator
